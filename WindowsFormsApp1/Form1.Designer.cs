@@ -1,4 +1,6 @@
-﻿namespace WindowsFormsApp1
+﻿using System.Drawing;
+
+namespace WindowsFormsApp1
 {
     partial class Form1
     {
@@ -35,6 +37,26 @@
         }
 
         #endregion
+
+        private void DrawEllipse()
+        {
+            System.Drawing.Pen myPen = new System.Drawing.Pen(System.Drawing.Color.Red);
+            System.Drawing.Graphics formGraphics;
+            formGraphics = this.CreateGraphics();
+            formGraphics.DrawEllipse(myPen, new Rectangle(0, 0, 200, 300));
+            myPen.Dispose();
+            formGraphics.Dispose();
+        }
+
+        private void DrawRectangle()
+        {
+            System.Drawing.Pen myPen = new System.Drawing.Pen(System.Drawing.Color.Red);
+            System.Drawing.Graphics formGraphics;
+            formGraphics = this.CreateGraphics();
+            formGraphics.DrawRectangle(myPen, new Rectangle(0, 0, 200, 300));
+            myPen.Dispose();
+            formGraphics.Dispose();
+        }
     }
 }
 
