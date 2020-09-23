@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlWindows", "WindowsFo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diccionario", "Diccionario\Diccionario.csproj", "{91ABA9A9-9662-4C18-BD33-8D56AD040F3A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{8D1B7007-C3FE-4471-A4CF-98E87EC420A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{91ABA9A9-9662-4C18-BD33-8D56AD040F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91ABA9A9-9662-4C18-BD33-8D56AD040F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91ABA9A9-9662-4C18-BD33-8D56AD040F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1B7007-C3FE-4471-A4CF-98E87EC420A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1B7007-C3FE-4471-A4CF-98E87EC420A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1B7007-C3FE-4471-A4CF-98E87EC420A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1B7007-C3FE-4471-A4CF-98E87EC420A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
